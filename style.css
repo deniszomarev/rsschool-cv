@@ -1,0 +1,75 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+main {
+  margin: 15px;
+}
+
+main img {
+    width: 135px;
+}
+
+.body__container {
+  width: 50%;
+  margin: auto;
+  background-color: gainsboro;
+}
+
+.header__nav {
+  background-color: #3f51b5;
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-inline-start: 0;
+  height: 60px;
+  align-items: center;
+}
+
+.header__nav li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.header__nav a span {
+  padding: 0 5px;
+}
+
+.header__nav a {
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+}
+
+.header__nav li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
+    monospace;
+}
+.code {
+  background-color: whitesmoke;
+  margin: 25px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer img {
+    height: 10%;
+    width: 10%;
+}
+
